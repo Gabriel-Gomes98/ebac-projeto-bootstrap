@@ -1,0 +1,96 @@
+    /* Header */
+
+.container_nav {
+    background-color: #000;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#menu_button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav_link:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+.menu_list {
+    display: none;
+    background-color: #000;
+    padding-top: 2rem;
+}
+
+.menu_list li {
+    list-style: none;
+    padding-bottom: 0.5rem;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    /* Main */
+
+main {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+h2 {
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+#carousel {
+    margin: 2rem 0 3rem ;
+}
+
+.carousel-indicators li {
+    list-style: none;
+}
+
+.carousel-caption {
+    background-color: rgba(1, 1, 1, 0.2);
+} 
+
+.carousel-caption h5 {
+    color: #fff;
+}
+
+.card {
+    margin: 2rem 3rem;
+}
+
